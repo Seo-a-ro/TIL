@@ -38,8 +38,7 @@
 
 6개의 데이터베이스가 존재함 
 
-![image-20210708113404342](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708113404342.png)
-
+![image-20210708113404342](https://user-images.githubusercontent.com/82528589/124930426-49750f00-e03c-11eb-8769-3144c396f09b.png)
 
 
 ##### USE
@@ -47,7 +46,7 @@
 * 사용할 데이터베이스를 지정
 * 지정해 놓은 후 특별히 다시 USE문 사용하거나 다른 DB를 사용하겠다고 명시하지 않는 이상 모든 SQL문은 지정 DB에서 수행 
 
-![image-20210708205254979](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708205254979.png)
+![image-20210708205254979](https://user-images.githubusercontent.com/82528589/124930443-4e39c300-e03c-11eb-8f33-05214c4ad2d6.png)
 
 
 
@@ -56,8 +55,7 @@
 * 데이터베이스 world의 테이블 이름 보기 
 
   
-
-![image-20210708205322039](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708205322039.png)
+![image-20210708205322039](https://user-images.githubusercontent.com/82528589/124930608-70cbdc00-e03c-11eb-96cb-d2ab2736bb8b.png)
 
 
 
@@ -67,7 +65,7 @@
 
 * 어떤 특정테이블의 어떤 열로 되어있는지 
 
-![image-20210708114112145](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708114112145.png)
+![image-20210708114112145](https://user-images.githubusercontent.com/82528589/124930627-75909000-e03c-11eb-8a61-b54d85f1d150.png)
 
 
 
@@ -77,7 +75,7 @@
 * 열에 대한 정보를 확인
 * 테이블에 대한 속성 정보 
 
-![image-20210708114657913](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708114657913.png)
+![image-20210708114657913](https://user-images.githubusercontent.com/82528589/124930653-7b867100-e03c-11eb-83a8-8dab1080984e.png)
 
 
 
@@ -100,9 +98,8 @@ SELECT select_expr
 
 
 
-![image-20210708115247137](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708115247137.png)
-
-![image-20210708115634520](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708115634520.png)
+![image-20210708115247137](https://user-images.githubusercontent.com/82528589/124930672-80e3bb80-e03c-11eb-8ea3-fd56e22f9f69.png)
+![image-20210708115634520](https://user-images.githubusercontent.com/82528589/124930693-86410600-e03c-11eb-82ce-81ee11e5a32d.png)
 
 
 
@@ -112,20 +109,18 @@ SELECT select_expr
 * SELECT 필드이름 FROM 테이블 이름 where 조건식;
 * 조건이 없을 경우 테이블의 크기가 클수록 찾는 시간과 노력이 증가 
 
-![image-20210708120023759](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708120023759.png)
+![image-20210708120023759](https://user-images.githubusercontent.com/82528589/124930817-9c4ec680-e03c-11eb-9b00-d1501330ef03.png)
 
 
 
 ##### 관계 연산자의 사용
-
-![image-20210708120238869](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708120238869.png)
+![image-20210708120238869](https://user-images.githubusercontent.com/82528589/124931566-4d556100-e03d-11eb-97b3-6e62f07995bd.png)
 
 
 
 * 한국에 있는 도시들 중 인구 수가 1,000,000 이상인 도시들만 select 하기 
 
-![image-20210708120753959](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708120753959.png)
-
+![image-20210708120753959](https://user-images.githubusercontent.com/82528589/124931585-521a1500-e03d-11eb-9c4a-7e5c9579e3dc.png)
 
 
 ##### Between 
@@ -133,7 +128,7 @@ SELECT select_expr
 * 데이터가 숫자로 구성되어 있어 연속적인 값은 BETWEEN ... AND 사용 가능
 * (숫자)범위 지정 
 
-![image-20210708120941047](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708120941047.png)
+![image-20210708120941047](https://user-images.githubusercontent.com/82528589/124930901-ac66a600-e03c-11eb-9a4f-b21eaf157db7.png)
 
 
 
@@ -141,7 +136,7 @@ SELECT select_expr
 
 * 이산적인(Discrete) 값의 조건에서는 IN() 사용 가능 
 
-![image-20210708121138829](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708121138829.png)
+![image-20210708121138829](https://user-images.githubusercontent.com/82528589/124930931-b1c3f080-e03c-11eb-9171-34b46429ccec.png)
 
 
 
@@ -151,9 +146,9 @@ SELECT select_expr
 * 하나의 문자가 아니라 어떤것도 올 수 있을 때 %사용 
 * 한 글자와 매치하기 위해서는 '_' 사용 
 
-![image-20210708121900125](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708121900125.png)
+![image-20210708121900125](https://user-images.githubusercontent.com/82528589/124930947-b5f00e00-e03c-11eb-831a-8797bfb1ecda.png)
 
-![image-20210708121955644](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708121955644.png)
+![image-20210708121955644](https://user-images.githubusercontent.com/82528589/124930968-bb4d5880-e03c-11eb-9ba8-f4d31bf7ff1a.png)
 
 ##### Sub Query
 
@@ -163,7 +158,7 @@ SELECT select_expr
 
 * 서브 쿼리의 결과가 둘 이상이 되면 에러가 발생함 
 
-  ![image-20210708122717390](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708122717390.png)
+  ![image-20210708122717390](https://user-images.githubusercontent.com/82528589/124930985-c0120c80-e03c-11eb-9a54-8dbf22c7673f.png)
 
 
 
@@ -173,8 +168,7 @@ SELECT select_expr
 * SOME은 ANY 와 동일한 의미로 사용
 * =ANY 구문은 IN과 동일한 의미 
 
-![image-20210708123054216](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708123054216.png)
-
+![image-20210708123054216](https://user-images.githubusercontent.com/82528589/124931010-c6a08400-e03c-11eb-96b1-6ceabb66a554.png)
 
 
 ##### ALL
@@ -182,15 +176,15 @@ SELECT select_expr
 * 서브쿼리의 여러 개의 결과를 모두 만족 시켜야 함. 
 * EX> 뉴욕의 도시보다 인구가 많은 곳을 보여줘라. 
 
-![image-20210708205725208](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708205725208.png)
+![image-20210708205725208](https://user-images.githubusercontent.com/82528589/124931025-cbfdce80-e03c-11eb-9ab8-c98787fd4d47.png)
 
 
 
 ##### ORDER BY 
 
-![image-20210708205908778](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708205908778.png)
+![image-20210708205908778](https://user-images.githubusercontent.com/82528589/124931044-d029ec00-e03c-11eb-91d3-ea7a04df5c70.png)
 
-![image-20210708205950922](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708205950922.png)
+![image-20210708205950922](https://user-images.githubusercontent.com/82528589/124931075-d61fcd00-e03c-11eb-9996-61f47dce9bd5.png)
 
 
 
@@ -199,10 +193,9 @@ SELECT select_expr
 * 중복된 것은 1개씩만 보여주면서 출력
 * 테이블의 크기가 클수록 효율적
 
-![image-20210708214333406](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708214333406.png)
+![image-20210708214333406](https://user-images.githubusercontent.com/82528589/124931106-dcae4480-e03c-11eb-8880-31848564ef39.png)
 
-![image-20210708214453453](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708214453453.png)
-
+![image-20210708214453453](https://user-images.githubusercontent.com/82528589/124931157-e8017000-e03c-11eb-9812-b23d08711813.png)
 
 
 ##### LIMIT
@@ -212,9 +205,7 @@ SELECT select_expr
 * 서버의 처리량을 많이 사용해 서버의 전반적인 성능을 나쁘게 하는 악성 쿼리문 개선할 때 사용
 * EX> 상위 10개의 인구 수만 내림차순으로 
 
-![image-20210708215417027](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708215417027.png)
-
-
+![image-20210708215417027](https://user-images.githubusercontent.com/82528589/124931190-ef287e00-e03c-11eb-8213-3e5245fe5f26.png)
 
 ##### GROUP BY
 
@@ -230,9 +221,9 @@ SELECT select_expr
 * 효율적인 데이터 그룹화 (Grouping)
 * 읽기 좋게 하기 위해 별칭(Alias)사용 
 
-![image-20210708220009058](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708220009058.png)
+![image-20210708220009058](https://user-images.githubusercontent.com/82528589/124931218-f51e5f00-e03c-11eb-9bd9-5c0fd273fa8b.png)
 
-##### 
+
 
 ##### HAVING 
 
@@ -240,7 +231,7 @@ SELECT select_expr
 * 집계 함수에 대해서 조건 제한하는 편리한 개념
 * HAVING절은 반드시 GROUP BY 절 다음에 나와야 함
 
-![image-20210708220810968](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708220810968.png)
+![image-20210708220810968](https://user-images.githubusercontent.com/82528589/124931258-fea7c700-e03c-11eb-84e0-7f59f2eea44f.png)
 
 ##### ROLLUP
 
@@ -250,8 +241,7 @@ SELECT select_expr
 
 * 각각의 모든 집계 현황을 보여줌 
 
-  ![image-20210708221531466](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708221531466.png)
-
+![image-20210708221531466](https://user-images.githubusercontent.com/82528589/124931321-0ff0d380-e03d-11eb-933a-6931857316cd.png)
 
 
 ##### JOIN 
@@ -259,11 +249,11 @@ SELECT select_expr
 * JOIN은 데이터베이스 내의 여러 테이블에서 가져온 레코드를 조합하여 하나의 테이블이나 결과 집합으로 표현
 * 합쳐지려면 조인에 조건이 필요함 
 
-![image-20210708221749141](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708221749141.png)
+![image-20210708221749141](https://user-images.githubusercontent.com/82528589/124931345-167f4b00-e03d-11eb-804e-6dfcfd5cd761.png)
 
 
 
 * city, country, countrylnaguage 테이블 3개 JOIN 하기 
 
-  ![image-20210708222149606](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210708222149606.png)
+![image-20210708222149606](https://user-images.githubusercontent.com/82528589/124931370-1d0dc280-e03d-11eb-858b-9e17438171d0.png))
 
