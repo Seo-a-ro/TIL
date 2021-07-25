@@ -11,9 +11,7 @@
 * netstat -ano -p tcp
 
 
-
-![image-20210718191539749](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210718191539749.png)
-
+![image-20210718191843895](https://user-images.githubusercontent.com/82528589/126889808-fd073c52-f782-493f-992c-eb7a227259f3.png)
 내 경우는 8080 을 사용하고 있는 PID는 19032 
 
 
@@ -21,13 +19,13 @@
 * TASKKILL/F /PID 19032
 * 안될 시 관리자권한으로 실행하여 진행 ^^;;
 
-![image-20210718191843895](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210718191843895.png)
+![image-20210718191843895](https://user-images.githubusercontent.com/82528589/126889811-8011630b-ed5c-4cc9-8bc9-40b0d6cc8e92.png)
 
 
 
 완성
 
-![image-20210718191959028](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210718191959028.png)
+![image-20210718191959028](https://user-images.githubusercontent.com/82528589/126889814-bdd5a936-26ef-490b-ad18-83af7c3e2973.png)
 
 
 
