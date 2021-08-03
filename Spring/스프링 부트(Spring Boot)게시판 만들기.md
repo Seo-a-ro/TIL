@@ -22,73 +22,67 @@ Spring Boot Project는 개발을 진행하는데 있어 필수적인 설정들�
 
    2-1. 윈도우 검색창에 환경 변수 키워드를 입력, 시스템 환경 변수 편집 클릭
 
-   ![image-20210731185542748](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731185542748.png)
+   ![image-20210731185542748](https://user-images.githubusercontent.com/82528589/127977677-10da43f8-9a34-43e0-8ed2-d9276b423ccc.png)
 
 
 
-​	2-2. 시스템 속성 창 하단의 환경 변수 클릭.
+   2-2. 시스템 속성 창 하단의 환경 변수 클릭.
+![image-20210731185902770](https://user-images.githubusercontent.com/82528589/127977686-cb38bf96-d0bf-4132-93a3-346ea81bee67.png)
 
-![image-20210731185902770](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731185902770.png)
-
-2-3) 시스템 변수 영역의 새로 만들기 클릭. 
-
-![image-20210731190008328](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731190008328.png)
+   2-3. 시스템 변수 영역의 새로 만들기 클릭. 
+![image-20210731190008328](https://user-images.githubusercontent.com/82528589/127977706-183b1237-0d02-425b-b857-b741a42357ad.png)
 
 
 
-2-4. 변수 이름에는 JAVA_HOME, 변수 값에는 앞에서 설치한 JDK경로를 입력. 
+   2-4. 변수 이름에는 JAVA_HOME, 변수 값에는 앞에서 설치한 JDK경로를 입력. 
 
-처음에 나는 jre 1.8.0_291을 입력해놨음 . 잘 보고 입력하기.
+   처음에 나는 jre 1.8.0_291을 입력해놨음 . 잘 보고 입력하기.
 
-![image-20210731190141051](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731190141051.png)
-
-
-
-2-5. 시스템 변수의 Path를 선택한 다음 , 편집 클릭하기. 
-
-![image-20210731190347957](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731190347957.png)
-
-2-6. 새로 만들기 버튼을 클릭한 다음, %JAVA_HOME%\bin 입력. (나는 이미 만들어놔서 있음)
+![image-20210731190141051](https://user-images.githubusercontent.com/82528589/127976953-62622419-b341-4213-9f99-0a7fa54c7f80.png)
 
 
 
-![image-20210731190425906](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731190425906.png)
+   2-5. 시스템 변수의 Path를 선택한 다음 , 편집 클릭하기. 
+
+![image-20210731190347957](https://user-images.githubusercontent.com/82528589/127976990-238f80a5-da0d-4fd4-8b8e-ffbcf082d41f.png)
+
+   2-6. 새로 만들기 버튼을 클릭한 다음, %JAVA_HOME%\bin 입력. (나는 이미 만들어놔서 있음)
+
+
+![image-20210731190425906](https://user-images.githubusercontent.com/82528589/127977019-d1e83601-7c19-45de-bd81-aab9658a7ed1.png)
 
 
 
-2-7. 방금 입력한 환경 변수를 선택하고, 위로 이동을 클릭해서 클릭. 
+   2-7. 방금 입력한 환경 변수를 선택하고, 위로 이동을 클릭해서 클릭. 
 
-![image-20210731190700360](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731190700360.png)
-
-
-
-2-8. 마지막으로 JAVA_HOME과 마찬가지로 시스템 변수의 새로 만들기를 클릭해서 변수 이름에는 CLASSPATH를 , 변수 값에는 %JAVA_HOME%\lib 입력 
-
-![image-20210731190839807](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731190839807.png)
+![image-20210731190700360](https://user-images.githubusercontent.com/82528589/127977103-fb40f7b3-132b-47ae-b1f3-4cc9fd565378.png)
 
 
 
-2-9 환경 변수 설정 완료. 
+   2-8. 마지막으로 JAVA_HOME과 마찬가지로 시스템 변수의 새로 만들기를 클릭해서 변수 이름에는 CLASSPATH를 , 변수 값에는 %JAVA_HOME%\lib 입력 
+
+![image-20210731190839807](https://user-images.githubusercontent.com/82528589/127977119-fbb668e3-7c94-4524-87a5-285b4cf84efe.png)
+
+
+
+   2-9. 환경 변수 설정 완료. 
 
 ​	설정을 테스트하기 위해 윈도우 검색창에 cmd 입력하고 , 명령 프롬프트 실행. 
 
-![image-20210731190953149](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731190953149.png)
-
+![image-20210731190953149](https://user-images.githubusercontent.com/82528589/127977155-a5ffef96-e753-4704-9b7f-953a761ea4ab.png)
 
 
 2-10. cmd 창이 열리면, 프롬프트에 java를 입력하고 , 엔터키 누르기.
 
-![image-20210731191036597](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731191036597.png)
+![image-20210731191036597](https://user-images.githubusercontent.com/82528589/127977183-07df07dc-3a71-4582-a8eb-0de37b730db0.png)
 
-![image-20210731191049324](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731191049324.png)
-
-
+![image-20210731191049324](https://user-images.githubusercontent.com/82528589/127977197-1ee99b26-73d3-45da-ae66-eabe4c1efb00.png)
 
 2-11. 이번에는 javac 입력하고 엔터키 누르기
 
-![image-20210731191122905](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731191122905.png)
+![image-20210731191122905](https://user-images.githubusercontent.com/82528589/127977215-109d542b-232b-4b08-8ca9-7618a6482bca.png)
 
-![image-20210731191201099](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731191201099.png)
+![image-20210731191201099](https://user-images.githubusercontent.com/82528589/127977223-ddc976f1-057c-48f8-b2f8-6102c257ad0e.png)
 
 
 
@@ -119,8 +113,7 @@ STS 다운로드로 이동해서 PC의 운영체체와 일치하는 파일을 �
 #### 4. workspace 생성하기
 
 
-
-![image-20210731191548024](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731191548024.png)
+![image-20210731191548024](https://user-images.githubusercontent.com/82528589/127977269-95f3080a-fa38-4336-9d9f-1b793240438b.png)
 
 
 
@@ -138,9 +131,8 @@ SpringToolSuite4.exe 파일을 실행하고 Workspace경로를 앞에서 생성�
 
 실행되지 않을 시 ini 파일 다시 한번 확인 -> 나는 몇번이고 고치다가 실행불가여서 ini를 아예 안건드림 ...
 
-![image-20210731192129382](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731192129382.png)
-
-![image-20210731192147136](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731192147136.png)
+![image-20210731192129382](https://user-images.githubusercontent.com/82528589/127977287-15a09328-214f-49be-ac40-b4a8246a1592.png)
+![image-20210731192147136](https://user-images.githubusercontent.com/82528589/127977299-e563a8fa-f8df-40ef-9773-2d3e128d4901.png)
 
 
 
@@ -151,18 +143,17 @@ SpringToolSuite4.exe 파일을 실행하고 Workspace경로를 앞에서 생성�
 
 
 7-1. STS(이클립스)좌측 상단에  **File -> New -> Project**를 클릭
-
-![image-20210731192607572](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731192607572.png)
+![image-20210731192607572](https://user-images.githubusercontent.com/82528589/127977311-e174e4eb-3fff-4238-8838-0321eddf0e16.png)
 
 **Spring Boot -> Spring Starter Project** 선택 후 Next 클릭 
 
-![image-20210731192720428](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731192720428.png)
+![image-20210731192720428](https://user-images.githubusercontent.com/82528589/127977322-118fb05d-f4ce-416c-921a-0f88ea44e77e.png)
 
 7-2. 프로젝트 명 원하는 이름으로 자유롭게 하되 TYPE은 Gradle로 지정 
 
 gradle이란 maven(메이븐)을 대신해서 라이브러리를 관리하는 도구로만 지금은 생각하기. 
 
-![image-20210731192921954](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731192921954.png)
+![image-20210731192921954](https://user-images.githubusercontent.com/82528589/127977346-125af1de-942e-484c-9d77-68b0911b3c76.png)
 
 
 
@@ -170,7 +161,7 @@ gradle이란 maven(메이븐)을 대신해서 라이브러리를 관리하는 �
 
 나는 블로그에서 하는 분과 Spring Boot Version이 다르지만 그냥 그대로 진행함. 
 
-![image-20210731193112582](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731193112582.png)
+![image-20210731193112582](https://user-images.githubusercontent.com/82528589/127977364-94f56f99-e651-40f4-a013-a7bd4b552afb.png)
 
 1. Developer Tools
 
@@ -184,7 +175,8 @@ gradle이란 maven(메이븐)을 대신해서 라이브러리를 관리하는 �
 
 ![img](https://blog.kakaocdn.net/dn/SfEVE/btqCvylsm12/6pewdaKjCZKSQQu09C5sWK/img.png)
 
-![image-20210731193439986](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731193439986.png)
+
+![image-20210731193439986](https://user-images.githubusercontent.com/82528589/127977403-96acfcc0-2922-4822-8d05-d9acf944204f.png)
 
 | < Developer   Tools>          | 설명                                                         |
 | ----------------------------- | ------------------------------------------------------------ |
@@ -213,8 +205,7 @@ gradle이란 maven(메이븐)을 대신해서 라이브러리를 관리하는 �
 8-2. STS 우측 하단에 힙메모리 상태를 볼 수 있는 영역이 생김. 
 
 ​		STS가 버벅거리는 현상이 발생한다거나 했을 때 휴지통 아이콘을 클릭해서 메모리정리를 실행 할 수 있음. 
-
-![image-20210731234421409](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210731234421409.png)
+![image-20210731234421409](https://user-images.githubusercontent.com/82528589/127977437-0682e145-b98b-4178-bf1c-03ea1bd423d5.png)
 
 
 
