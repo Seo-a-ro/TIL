@@ -30,10 +30,9 @@ Mybatis-Spring은 Mapper 인터페이스를 이용해서 실제 SQL 처리가 �
 
    : 해당 페이지에 mapper로 사용할 인터페이스를 생성하여 사용하기. 
 
-![image-20210811110342412](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811110342412.png)
+![image-20210811110342412](https://user-images.githubusercontent.com/82528589/128992258-94d0dc5b-c47a-498d-acc4-d0763a1bfb4d.png)
 
-![image-20210811110420431](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811110420431.png)
-
+![image-20210811110420431](https://user-images.githubusercontent.com/82528589/128992278-0a70d76b-7155-4c94-86a4-ee63ba100432.png)
 
 
 2. root-context.xml 설정
@@ -42,7 +41,7 @@ Mybatis-Spring은 Mapper 인터페이스를 이용해서 실제 SQL 처리가 �
 
    1. root-context.xml 창을 열기. 하단 namespaces클릭 후 뜨는 목록에서 mybatis-spring체크하여 추가.
 
-![image-20210811110713826](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811110713826.png)
+![image-20210811110713826](https://user-images.githubusercontent.com/82528589/128993134-594a074b-0f5d-451c-b450-97b9923d210a.png)
 
 
 
@@ -56,7 +55,7 @@ Mybatis-Spring은 Mapper 인터페이스를 이용해서 실제 SQL 처리가 �
 <mybatis-spring:scan base-package="자신이 mapper 인터페이스를 담을 패키지 지정"/>
 ```
 
-![image-20210811110952787](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811110952787.png)
+![image-20210811110952787](https://user-images.githubusercontent.com/82528589/128993151-a49a2dd0-7fc1-4661-a0fe-271be41b4370.png)
 
 
 
@@ -68,14 +67,14 @@ Mybatis-Spring은 Mapper 인터페이스를 이용해서 실제 SQL 처리가 �
 
 1. root-context.xml에 mapper역할로 지정한 패키지(com.shopping.mapper)에 테스트를 위해 사용할 인터페이스 TimeMapper.java를 만들기.
 
-   ![image-20210811111813029](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811111813029.png)
+  ![image-20210811111813029](https://user-images.githubusercontent.com/82528589/128993170-302c6b29-72cf-4325-922c-212afa3a1c86.png)
 
 
 
 2. 코드 추가하기 
 
    ```java
-   package com.vam.mapper;
+   package com.shopping.mapper;
    
    import org.apache.ibatis.annotations.Select;
    
@@ -89,14 +88,13 @@ Mybatis-Spring은 Mapper 인터페이스를 이용해서 실제 SQL 처리가 �
 
    
 
-![image-20210811111857512](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811111857512.png)
+![image-20210811111857512](https://user-images.githubusercontent.com/82528589/128993215-942c88a3-1375-485e-b6d7-92c5af66accc.png)
 
 
 
 3. SQL문 작동하는지 테스트 하기 위해 src/test/java -> "com.shopping.persistence" 경로에 TimeMapperTests 클래스를 만들기.
 
-![image-20210811112124872](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811112124872.png)
-
+![image-20210811112124872](https://user-images.githubusercontent.com/82528589/128993242-3f171820-7a8c-41da-9ea7-cdd61effbbbc.png)
 
 
 4. 코드 추가
@@ -104,7 +102,7 @@ Mybatis-Spring은 Mapper 인터페이스를 이용해서 실제 SQL 처리가 �
    
 
 ```java
-package com.vam.persistence;
+package com.shopping.persistence;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -112,7 +110,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.vam.mapper.TimeMapper;
+import com.shopping.mapper.TimeMapper;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("file:src/main/webapp/WEB-INF/spring/root-context.xml")
@@ -142,7 +140,7 @@ public class TimeMapperTests {
 
    참고: https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=miniii_su&logNo=221624861517
 
-![image-20210811130632603](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811130632603.png)
+![image-20210811130632603](https://user-images.githubusercontent.com/82528589/128993274-3b0428c9-be93-4fb7-bb80-2ab45e9578c5.png)
 
 
 
@@ -182,7 +180,7 @@ Mapper XML을 사용하기 위해 가장 주의해야 할 점은 XML파일의 �
 
 1. 저의 인터페이스 경로는 'com.shopping.mapper'이기 때문에 'src/main/resources'경로에 com/shopping/mapper 경로가 되도록 폴더를 만들자.
 
-![image-20210811131556131](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811131556131.png)
+![image-20210811131556131](https://user-images.githubusercontent.com/82528589/128993324-25a30c5d-c429-4575-9ce6-6530ad405f70.png)
 
 
 
@@ -190,20 +188,18 @@ Mapper XML을 사용하기 위해 가장 주의해야 할 점은 XML파일의 �
 
    검색박스에 xml을 기입함. 결과 물 중 XML File 클릭 -> next 클릭 
 
-![image-20210811131628385](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811131628385.png)
+![image-20210811131628385](https://user-images.githubusercontent.com/82528589/128993349-58305933-2d32-4a95-b49b-50b35caea1d1.png)
 
 
 
 ​	자신이 사용할 파일 명을 작성한 후 finish 버튼 클릭 
 
-![image-20210811131654849](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811131654849.png)
-
+![image-20210811131654849](https://user-images.githubusercontent.com/82528589/128993366-e5233239-d591-4d89-8baa-bb764827e82e.png)
 
 
 xml 파일 생성 완료 
 
-![image-20210811131957485](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811131957485.png)
-
+![image-20210811131957485](https://user-images.githubusercontent.com/82528589/128993378-c8efa266-4005-4845-abd7-7707cf211be7.png)
 
 
 아래의 코드를 xml파일에 추가해주기.
@@ -214,7 +210,7 @@ xml 파일 생성 완료
 
 SQL문은 < mapper>태그 안에 작성해주시면 됩니다. xml파일에서 SQL문 사용방법에 대한 자세한 내용은 MyBatis 공식 홈페이지를 참고하기 
 
-![image-20210811132109899](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811132109899.png)
+![image-20210811132109899](https://user-images.githubusercontent.com/82528589/128993396-618ce617-cc35-4bbe-b328-80c6f8d3b6e6.png)
 
 
 
@@ -232,7 +228,7 @@ SQL문은 < mapper>태그 안에 작성해주시면 됩니다. xml파일에서 S
 
 1. TimeMapper 인터페이스에 getTime2() 메서드를 추가하기.
 
-![image-20210811134322620](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811134322620.png)
+![image-20210811134322620](https://user-images.githubusercontent.com/82528589/128993417-676a2e87-e1e7-4724-b643-f452921c4720.png)
 
 2.  TimeMapper.xml 파일에 < select> 태그를 작성하고 실행시키고자 하는 SQL문(현재시간)을 추가하기.
 
@@ -248,14 +244,12 @@ SQL문은 < mapper>태그 안에 작성해주시면 됩니다. xml파일에서 S
 
    \- 자세한 사용방법은 MyBatis 공식 홈페이지를 참고.
 
-![image-20210811135621819](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811135621819.png)
-
+![image-20210811135621819](https://user-images.githubusercontent.com/82528589/128993438-4f402ad7-a382-445f-8560-6f5171ec7c14.png)
 
 
 3. 기존에 테스트를 위해 사용하였던 TimeMapperTests 클래스에 테스트를 위한 코드 추가하기.
 
-![image-20210811135520573](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811135520573.png)
-
+![image-20210811135520573](https://user-images.githubusercontent.com/82528589/128993457-9510954e-82d0-4224-a1ed-9cf155078cd0.png)
 4. Junit 테스트 진행 후 결과 확인 
 
    콘솔 창을 확인해보시면 두 개의 현재시간 문구가 떠 있음
@@ -264,7 +258,7 @@ SQL문은 < mapper>태그 안에 작성해주시면 됩니다. xml파일에서 S
 
    \- 아래의 문구는 getTime2() 메서드의 결과. 해당 메서드는 인터페이스와 XML 파일을 통해서 SQL문을 실행.(어노테이션은 사용X.)
 
-![image-20210811140318518](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210811140318518.png)
+![image-20210811140318518](https://user-images.githubusercontent.com/82528589/128993467-0aac481a-8332-4722-ae35-8bcb8db23d91.png)
 
 
 
