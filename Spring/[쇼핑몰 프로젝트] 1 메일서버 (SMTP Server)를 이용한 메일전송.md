@@ -87,7 +87,7 @@ SMTP Server를 통해서 메일 전송 기능을 구현하기 위해선 사용�
 
 버전은 자신에게 맞는 버전을 선택하면 되지만 출처 글쓴이가 사용한 버전 그대로 1.4.7 사용
 
-![image-20210813170423305](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210813170423305.png)
+![image-20210813170423305](https://user-images.githubusercontent.com/82528589/130536695-af7ece09-3f16-449a-ac4c-ce21f7e0a579.png)
 
 java에서 메일을 보내기 위해 필요로한 라이브러리
 
@@ -103,7 +103,7 @@ java에서 메일을 보내기 위해 필요로한 라이브러리
 
 #### 2.2 spring-context-support 라이브러리 추가
 
-![image-20210813170934191](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210813170934191.png)
+![image-20210813170934191](https://user-images.githubusercontent.com/82528589/130536710-929b7ceb-3d00-43b9-9876-2a980524eb1f.png)
 
  JavaMailSender 인터페이스(JavaMailSenderImpl)를 사용하기 위해 필요. mail 라이브러리를 일일이 세팅 할 필요 없이 몇가지의 설정으로도 사용가능 (MailSender Bean설정)
 
@@ -119,15 +119,13 @@ java에서 메일을 보내기 위해 필요로한 라이브러리
 
  Bean 등록은 root-context.xml에 설정해주기
 
-![image-20210816171618951](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210816171618951.png)
-
+![image-20210816171618951](https://user-images.githubusercontent.com/82528589/130536725-fc603a00-3506-4c15-a6f0-5ba8e1c61724.png)
 #### 3. 메일 서버가 릴레이를 허용하는 경우 
 
-![image-20210813171629020](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210813171629020.png)
+![image-20210813171629020](https://user-images.githubusercontent.com/82528589/130536738-6f9fc2b2-acc3-417f-b801-62628b080ea7.png)
 
 
-
-![image-20210816165905396](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210816165905396.png)
+![image-20210816165905396](https://user-images.githubusercontent.com/82528589/130536754-59b3e89a-cf87-44da-b2b6-7e400ef57607.png)
 
 #### 사용 가능한 메일서버 찾기(nslookup)
 
@@ -137,8 +135,7 @@ java에서 메일을 보내기 위해 필요로한 라이브러리
 4. 자신이 사용하길 원하는 도메인 주소 입력 후 enter (ex:google.com/naver.com)
 5. MX perference 는 우선순위로서 숫자가 낮을수록 우선순위가 높음
 
-![image-20210816161526161](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210816161526161.png)
-
+![image-20210816161526161](https://user-images.githubusercontent.com/82528589/130536853-38059398-04b1-4129-afe4-7535a4d18f84.png)
 
 
 #### 메일 서버에 계정 인증 후 메일을 전송하는 방법
