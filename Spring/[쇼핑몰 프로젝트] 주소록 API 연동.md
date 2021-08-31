@@ -52,7 +52,7 @@
 
 하지만 disabled설정 할 경우 데이터 자체가 전송이 되지 않기 때문에 변경함 
 
-![image-20210819161602803](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210819161602803.png)
+![image-20210819161602803](https://user-images.githubusercontent.com/82528589/131422109-7c4bd340-1c32-4d4c-8532-b0f291284424.png)
 
 
 
@@ -63,7 +63,7 @@
 - 자바스크립트 메서드를 포함하는 스크립트 태그 바로 위에 추가해줌
 -  다음 주소록 API 설명 홈페이지를 보시면 로딩 방식으로 '통합 로딩 방식' / '동적 로딩방식' / '정적 로딩 방식'이 있음.  이중에 '통합 로딩 방식'을 사용
 
-![image-20210819165542678](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210819165542678.png)
+![image-20210819165542678](https://user-images.githubusercontent.com/82528589/131422123-b92312ba-f577-4925-802a-8e43a7d339a4.png)
 
 
 
@@ -71,7 +71,7 @@
 
 주소 API기능을 사용하기 위한 메서드 추가하기 이름은 execution_daum_adress로 정함
 
-![image-20210819170726954](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210819170726954.png)
+![image-20210819170726954](https://user-images.githubusercontent.com/82528589/131422130-6593bbe8-b85a-4271-9f2a-d2049e0a59d4.png)
 
 
 
@@ -79,7 +79,7 @@
 
 메서드 내용에 주소를 검색하는 팝업창을 띄우는 코드 추가
 
-![image-20210819170915274](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210819170915274.png)
+![image-20210819170915274](https://user-images.githubusercontent.com/82528589/131422139-79499733-47a4-43b2-90ce-eae350db3635.png)
 
 
 
@@ -87,13 +87,12 @@
 
 주소찾기 버튼(div태그)을 클릭할 시 추가한 메서드가 실행이 되도록 onclick속성을 추가하고 값을 앞에서 추가한 메서드 [execution_daum_address()]를 넣기
 
-![image-20210819171123663](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210819171123663.png)
-
+![image-20210819171123663](https://user-images.githubusercontent.com/82528589/131422150-8c858bf9-c7ea-443b-b706-952486ad210d.png)
 
 
 #### 5. 테스트 
 
-![image-20210819172243537](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210819172243537.png)
+![image-20210819172243537](https://user-images.githubusercontent.com/82528589/131422158-bd472206-107b-4a1d-ac68-08f8283d7013.png)
 
 
 
@@ -101,7 +100,7 @@
 
 사용자가 선택한 값 이용하기 예제코드 추가
 
-![image-20210819172555042](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210819172555042.png)
+![image-20210819172555042](https://user-images.githubusercontent.com/82528589/131422164-34f4c950-8bc9-49f1-bb7d-f6ab4954ff02.png)
 
 
 
@@ -133,7 +132,7 @@
                   addr += extraAddr;
 ```
 
-![image-20210819174336568](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210819174336568.png)
+![image-20210819174336568](https://user-images.githubusercontent.com/82528589/131422191-3c0999a3-69f2-48b5-853e-8718a094e254.png)
 
 
 
@@ -167,7 +166,7 @@
             //$("[name=memberAddr2]").val(addr);            // 대체가능
 ```
 
-![image-20210819174934035](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210819174934035.png)
+![image-20210819174525646](https://user-images.githubusercontent.com/82528589/131422198-75d691f9-0b9d-4084-abe8-92739e1e84cb.png)
 
 
 
@@ -186,8 +185,7 @@
 
 ```
 
-![image-20210819175150447](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210819175150447.png)
-
+![image-20210819175150447](https://user-images.githubusercontent.com/82528589/131422206-be1075ce-8ce2-4813-b5bf-74ab97fa268b.png)
 
 
 #### 8. 테스트 
@@ -200,8 +198,8 @@
 
 찾고자 하는 주소 입력하기
 
-![image-20210820091515744](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210820091515744.png)
+![image-20210820091515744](https://user-images.githubusercontent.com/82528589/131422228-474408e4-40f1-4266-9635-343841243390.png)
 
 주소 입력 및 커서 이동 확인
 
-![image-20210820091627869](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210820091627869.png)
+![image-20210820091627869](https://user-images.githubusercontent.com/82528589/131422237-7d4f95d9-9c52-4767-8698-ec78999f65b4.png)
